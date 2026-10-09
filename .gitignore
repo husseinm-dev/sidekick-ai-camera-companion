@@ -1,0 +1,27 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+
+# Local tunnel executable; never commit downloaded binaries.
+.tools/
+
+/src/generated/prisma
+
+# Local SQLite database
+prisma/*.db
+prisma/*.db-journal
+
+# Personal learning docs — never push
+docs/course/
+docs/LEARNING.md
+
+# AI assistant tool files (regenerated locally)
+AGENTS.md
+CLAUDE.md
+.agents/
+.claude/
+.windsurf/
+skills-lock.json

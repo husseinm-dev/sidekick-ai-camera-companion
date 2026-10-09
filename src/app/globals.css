@@ -1,0 +1,38 @@
+@import "tailwindcss";
+:root {
+  background: #f4f4ee;
+  color: #242b24;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #6b8638;
+  outline-offset: 5px;
+}
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+}
+.camera-panel {
+  background-image:
+    radial-gradient(ellipse at 65% 20%, #46543d 0, transparent 55%),
+    radial-gradient(ellipse at 10% 100%, #4f6040 0, transparent 60%);
+}
+.viewfinder {
+  border: 1px solid #ffffff40;
+  border-radius: 24px;
+  background: #ffffff05;
+  box-shadow: 0 0 60px #d5f57a08;
+}
