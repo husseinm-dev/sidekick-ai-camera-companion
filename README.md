@@ -1,6 +1,6 @@
 # Sidekick — AI Camera Companion
 
-Point your phone's camera at the world and talk to an AI about what it sees — in real time.
+Point your phone's camera at the world and talk to an AI about what it sees, in real time.
 
 Sidekick is a mobile-first web app built with **Next.js 16, React 19, TypeScript, Tailwind CSS 4, and the OpenAI Realtime API**. Create an account, add your own OpenAI API key (stored encrypted, billed to you), then start a session: the camera runs continuously, the app streams your voice over WebRTC, and it periodically sends visual frames so the AI can answer questions like *"What am I looking at?"* out loud.
 
